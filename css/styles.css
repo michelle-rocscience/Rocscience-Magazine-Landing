@@ -1,10 +1,12 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    width:100vw;
+    overflow: hidden;
 }
 header {
     padding: 1.5em;
     background-color: white;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     box-shadow: 1px 1px 2px #444444
@@ -36,6 +38,7 @@ main {
     background-image: url(../assets/cover_Rocscience_magazine_mobile.png);
     background-size: cover;
     background-repeat: no-repeat;
+    overflow: hidden;
     content: '';
     height: 100%;
     width: 100%;
