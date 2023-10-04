@@ -77,6 +77,8 @@ button {
     background-color:#ffffffcb;
     width: 100%;
     margin-top: 100px;
+    text-decoration: none;
+    font-weight: 500;
     box-shadow: 1px 1px 2px #444444;
     animation: scroll-up 2s ease-out 1 forwards;
     transition: transform 0.5s ease-out, box-shadow 0.5s;
@@ -84,7 +86,7 @@ button {
 
 @keyframes scroll-up {100%{margin-top: 0;}}
 
-.button-link {
+.button-link a{
     color:#444444;
     font-size: large;
 }
@@ -93,8 +95,6 @@ button:hover {
     color: orangered;
     transform: translate(-0.5em, -0.25em);
     box-shadow: 5px 5px 2px 1px #444444;
-    text-decoration: none;
-    font-weight: 500;
 }
 
 /* ANIMATIONS */
