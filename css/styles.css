@@ -1,7 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    width: 100vw;
-    overflow: hidden;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 a {
@@ -44,7 +44,7 @@ header {
 main {
     width: 100%;
     height: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .fade {
@@ -56,7 +56,7 @@ main {
     background-image: url(../assets/cover_Rocscience_magazine_mobile.png);
     background-size: cover;
     background-repeat: no-repeat;
-    overflow: hidden;
+    overflow-x: hidden;
     content: '';
     height: 100%;
     width: 100%;
